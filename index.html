@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cottage on 37</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .hero-bg {
+            background-color: #632321;
+        /*    background-size: cover;
+            background-position: center;*/
+        }
+	.header {
+		background-color: #E0E0E0;
+	}
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <!-- <header class="bg-white shadow"> -->
+    <header class="header shadow">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-gray-800">The Cottage on 37</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="text-gray-600 hover:text-gray-800">Home</a></li>
+                <li><a href="#menu" class="text-gray-600 hover:text-gray-800">Menu</a></li>
+                <li><a href="#about" class="text-gray-600 hover:text-gray-800">About</a></li>
+                <li><a href="#contact" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg h-48 flex items-center justify-center text-white">
+        <div class="text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4">Welcome to The Cottage on 37</h2>
+            <p class="text-lg md:text-xl mb-6">Experience cozy dining with a touch of elegance</p>
+            <a href="#menu" class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-full font-semibold">View Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="header py-16">
+        <div class="header container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Our Menu</h2>
+            <p class="text-center text-gray-600 mb-12">Explore our delicious offerings. Click on the images below to view our menu in detail.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Menu Image Placeholder 1 -->
+                <div class="bg-gray-200 rounded-lg overflow-hidden shadow-lg">
+			<a href="menu-front.jpg" target="_blank">
+				<img src="menu-front.jpg" alt="Menu Page 1" class="w-full h-64 object-cover">
+			</a>
+                    <div class="p-4 text-center">
+                        <p class="text-gray-600">Menu Page 1</p>
+                    </div>
+                </div>
+                <!-- Menu Image Placeholder 2 -->
+                <div class="bg-gray-200 rounded-lg overflow-hidden shadow-lg">
+			<a href="menu-back.jpg" target="_blank">
+				<img src="menu-back.jpg" alt="Menu Page 2" class="w-full h-64 object-cover">
+			</a>
+                    <div class="p-4 text-center">
+                        <p class="text-gray-600">Menu Page 2</p>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-gray-600 mt-8">Replace the placeholder images above with high-quality scans or photos of your menu.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">About Us</h2>
+            <p class="text-gray-600 text-center max-w-2xl mx-auto">The Cottage on 37 is a family-owned restaurant offering a warm, inviting atmosphere and a menu crafted with fresh, local ingredients. Our passion is to create memorable dining experiences for every guest.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 header">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Contact Us</h2>
+            <div class="max-w-lg mx-auto text-center text-gray-600">
+                <p class="mb-4">7528 N Woodbridge Rd, Brohman, MI 49312</p>
+                <p class="mb-4">Phone: (231) 577-3704</p>
+                <p class="mb-4">Email: info@cottageon37.com</p>
+		<p>Hours</p>
+		<p>Saturday-Thursday 7:00AM - 2:00PM</p>
+		<p>Friday 7:00AM - 7PM</p>
+		<p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 The Cottage on 37. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
