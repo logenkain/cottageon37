@@ -10,3 +10,18 @@ Push changes to git, log into the server and pull down the changes.
 
 
 TODO: Add specific directory to do this, or make a script.
+
+
+
+If just using images of all three menus, this is easier.
+
+Copy the new menu-front.jpg, menu-back.jpg and kids-menu.jpg to the directory.
+
+magic menu-front.jpg menu-back.jpg kids-menu.jpg full-menu.pdf
+
+And it's done.
+
+It's important that menu-front.jpg and menu-back.jpg are named as such. This will
+allow the images to update apropriately.
+
+It's important for it to be called full-menu.pdf so that clicking on the pictures work.
