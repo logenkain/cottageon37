@@ -1,0 +1,12 @@
+
+
+magic mainMenu.pdf kidsMenu.pdf full-menu.pdf
+
+Clicking on the menu images will then make the full menu + kid's menu at the end appear.
+
+replace menu-front.jpg and menu-back.jpg with respective images of the front and back of the menu.
+
+Push changes to git, log into the server and pull down the changes.
+
+
+TODO: Add specific directory to do this, or make a script.
